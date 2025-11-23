@@ -17,7 +17,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script>
         (function(){
-            emailjs.init("d0kWBMfWE-4DG73hM");
+            emailjs.init("uNr6Zu70yF4kGqIQq");
         })();
 
         function send_mail(){
@@ -27,7 +27,7 @@
                 message: document.getElementById('message').value,
             };
 
-            emailjs.send("service_hq9r8fh", "template_qdg6au7", parm)
+            emailjs.send("service_r7up879", "template_1olzklk", parm)
             .then(function(response) {
                 alert("Email sent successfully!");
                 console.log("SUCCESS:", response);
